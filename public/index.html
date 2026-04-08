@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Tailor with O*NET Skills</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Resume Tailor (JavaScript + O*NET)</h1>
+      <p>Paste a resume and a job description to generate a targeted resume draft.</p>
+
+      <label for="jobTitle">Job title (used for O*NET skills lookup)</label>
+      <input id="jobTitle" placeholder="e.g., software developer" />
+
+      <label for="jobDescription">Job description</label>
+      <textarea id="jobDescription" rows="10"></textarea>
+
+      <label for="resumeText">Current resume</label>
+      <textarea id="resumeText" rows="10"></textarea>
+
+      <button id="generateBtn">Generate tailored resume</button>
+
+      <section id="result" class="hidden">
+        <h2>Tailored Resume Output</h2>
+        <p id="sourceLine"></p>
+        <h3>Summary</h3>
+        <p id="summary"></p>
+        <h3>Skills</h3>
+        <ul id="skills"></ul>
+        <h3>Experience Bullets</h3>
+        <ul id="bullets"></ul>
+        <h3>Suggestions</h3>
+        <ul id="suggestions"></ul>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

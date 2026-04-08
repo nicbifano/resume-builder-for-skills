@@ -1,0 +1,26 @@
+{
+  "software developer": [
+    "JavaScript",
+    "Node.js",
+    "REST APIs",
+    "Git",
+    "Testing",
+    "Debugging",
+    "Agile"
+  ],
+  "data analyst": [
+    "SQL",
+    "Data Visualization",
+    "Python",
+    "Statistics",
+    "Dashboarding",
+    "Data Cleaning"
+  ],
+  "project manager": [
+    "Stakeholder Management",
+    "Roadmapping",
+    "Risk Management",
+    "Budgeting",
+    "Team Leadership"
+  ]
+}
