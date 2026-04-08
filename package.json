@@ -1,0 +1,19 @@
+{
+  "name": "resume-builder-for-skills",
+  "version": "1.0.0",
+  "description": "Tailor a resume to a job description using JavaScript and optional O*NET skills data.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "resume",
+    "job-description",
+    "onet",
+    "javascript"
+  ],
+  "license": "MIT"
+}
